@@ -1,0 +1,22 @@
+﻿cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  main.cpp
+Z:\Homes\noam\NOAM-X-plus-real\r3\X+\Calculation\Model.h(387,39): warning C4244: 'argument': conversion from 'Eigen::EigenBase<Derived>::Index' to 'int', possible loss of data
+Z:\Homes\noam\NOAM-X-plus-real\r3\X+\Calculation\Model.h(387,39): warning C4244:         with
+Z:\Homes\noam\NOAM-X-plus-real\r3\X+\Calculation\Model.h(387,39): warning C4244:         [
+Z:\Homes\noam\NOAM-X-plus-real\r3\X+\Calculation\Model.h(387,39): warning C4244:             Derived=Eigen::Matrix<double,-1,1,0,-1,1>
+Z:\Homes\noam\NOAM-X-plus-real\r3\X+\Calculation\Model.h(387,39): warning C4244:         ]
+  (compiling source file 'main.cpp')
+  
+Z:\Homes\noam\NOAM-X-plus-real\r3\X+\UI-Console\main.cpp(304,12): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'wchar_t *'
+      Z:\Homes\noam\NOAM-X-plus-real\r3\X+\UI-Console\main.cpp(304,12):
+      consider using '%ls' in the format string
+      Z:\Homes\noam\NOAM-X-plus-real\r3\X+\UI-Console\main.cpp(304,12):
+      consider using '%lls' in the format string
+      Z:\Homes\noam\NOAM-X-plus-real\r3\X+\UI-Console\main.cpp(304,12):
+      consider using '%Ls' in the format string
+      Z:\Homes\noam\NOAM-X-plus-real\r3\X+\UI-Console\main.cpp(304,12):
+      consider using '%ws' in the format string
+  
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets(1418,5): warning MSB8012: TargetPath(Z:\Homes\noam\NOAM-X-plus-real\r3\x64\Debug\UI-Console.exe) does not match the Linker's OutputFile property value (Z:\Homes\noam\NOAM-X-plus-real\r3\x64\Debug\xplus.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets(1420,5): warning MSB8012: TargetName(UI-Console) does not match the Linker's OutputFile property value (xplus). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  UI-Console.vcxproj -> Z:\Homes\noam\NOAM-X-plus-real\r3\x64\Debug\UI-Console.exe

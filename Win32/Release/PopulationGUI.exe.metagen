@@ -1,0 +1,144 @@
+  PopulationGUI.FileExpressionPanel.resources - Embedded, ContainedInManifestFile, 
+  PopulationGUI.TWindow.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly PopulationGUI, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Graph: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(tagRECT, UInt32, GraphDrawType, std.vector<double\,std::allocator<double> >*, std.vector<double\,std::allocator<double> >*, Boolean, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Fields:
+    Int32 width : Public
+    Int32 height : Public
+    Int32 xoff : Public
+    Int32 yoff : Public
+    Boolean bLogScaleX : Public
+    Boolean bLogScaleY : Public
+    Boolean bGrid : Public
+    Boolean bLegend : Public
+    Boolean bXTicks : Public
+    Boolean bYTicks : Public
+    std.vector<double\,std::allocator<double> >* x : Public
+    std.vector<double\,std::allocator<double> >* y : Public
+    std.vector<double\,std::allocator<double> >* cx : Public
+    std.vector<double\,std::allocator<double> >* cy : Public
+    Int32 numGraphs : Public
+  Methods:
+    Add(UInt32 IsLong, GraphDrawType, vector<double\,std::allocator<double> >*, vector<double\,std::allocator<double> >*): PrivateScope, Public, HideBySig
+    Modify(Int32, vector<double\,std::allocator<double> >*, vector<double\,std::allocator<double> >*): PrivateScope, Public, HideBySig
+    Remove(Int32): PrivateScope, Public, HideBySig
+    Legend(vector<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::allocator<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    Highlight(Int32, Int32, Int32, UInt32 IsLong): PrivateScope, Public, HideBySig
+    HighlightSingle(Int32, Int32, Int32, UInt32 IsLong): PrivateScope, Public, HideBySig
+    Deselect(): PrivateScope, Public, HideBySig
+    toSci(pair<double\,int>*, Double): PrivateScope, Public, HideBySig
+    Mask(Int32, Int32, Int32, UInt32 IsLong): PrivateScope, Public, HideBySig
+    RemoveMask(): PrivateScope, Public, HideBySig
+    SZoom(Int32, Int32): PrivateScope, Public, HideBySig
+    EZoom(Int32, Int32): PrivateScope, Public, HideBySig
+    ResetZoom(): PrivateScope, Public, HideBySig
+    FitToAllGraphs(): PrivateScope, Public, HideBySig
+    Repaint(Graphics, Int32, Int32): PrivateScope, Public, HideBySig
+    LogScaleY(): PrivateScope, Public, HideBySig
+    LogScaleX(): PrivateScope, Public, HideBySig
+    SetScale(GraphScale, GraphScale): PrivateScope, Public, HideBySig
+    SetScale(Int32, GraphScale): PrivateScope, Public, HideBySig
+    ToggleGrid(): PrivateScope, Public, HideBySig
+    ToggleXTicks(): PrivateScope, Public, HideBySig
+    ToggleYTicks(): PrivateScope, Public, HideBySig
+    Resize(tagRECT): PrivateScope, Public, HideBySig
+    ExportImage(IntPtr): PrivateScope, Public, HideBySig
+    SetTitle(String): PrivateScope, Public, HideBySig
+    SetTitle(basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    SetXLabel(String): PrivateScope, Public, HideBySig
+    SetXLabel(basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    SetYLabel(String): PrivateScope, Public, HideBySig
+    SetYLabel(basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    SetTickRes(Int32): PrivateScope, Public, HideBySig
+    PointToData(pair<double\,double>*, Int32, Int32): PrivateScope, Public, HideBySig
+    GetHighlightStart(vector<std::pair<int\,int>\,std::allocator<std::pair<int\,int> > >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    IsInHighlight(Int32, Int32): PrivateScope, Public, HideBySig
+    GetHighlightEnd(vector<std::pair<int\,int>\,std::allocator<std::pair<int\,int> > >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    GetGraphVisibility(Int32): PrivateScope, Public, HideBySig
+    SetGraphVisibility(Int32, Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    ChangeColor(Int32, UInt32 IsLong): PrivateScope, Public, HideBySig
+    ChangeColor(Int32, Int32, Int32, Int32): PrivateScope, Public, HideBySig
+    DrawPeakOutline(Int32, Int32, Int32, Int32): PrivateScope, Public, HideBySig
+    DrawPeak(): PrivateScope, Public, HideBySig
+    SetDrawPeak(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    Cropping(): PrivateScope, Public, HideBySig
+    SetCropping(Boolean(HasFieldMarshal), Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    RedrawZoom(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    RedrawPeak(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    RedrawCrop(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class PopulationGUI.FileExpressionPanel: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(System.String, SByte): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, std.vector<double\,std::allocator<double> >*, std.vector<double\,std::allocator<double> >*, SByte): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(SByte): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 graphIndex : Public
+    System.String path : Public
+    System.String file : Public
+    System.Windows.Forms.ToolTip ttip : Public
+    std.vector<double\,std::allocator<double> >* xE : Public
+    std.vector<double\,std::allocator<double> >* yE : Public
+    std.vector<double\,std::allocator<double> >* xF : Public
+    std.vector<double\,std::allocator<double> >* yF : Public
+    std.vector<double\,std::allocator<double> >* x : Public
+    std.vector<double\,std::allocator<double> >* y : Public
+    System.Windows.Forms.RadioButton fileRadioButton : Public
+    System.Windows.Forms.RadioButton expressionRadioButton : Public
+    System.Windows.Forms.TextBox filenameTextBox : Public
+    System.Windows.Forms.CheckBox visCheckBox : Public
+    System.Windows.Forms.TextBox expressionTextBox : Public
+    System.Windows.Forms.TextBox designationTextBox : Public
+    System.Windows.Forms.Label colorLabel : Public
+    System.Windows.Forms.Button removeButton : Public
+    System.Windows.Forms.Button exportButton : Public
+  Methods:
+    GetColorRef(): PrivateScope, Public, HideBySig
+Class GUICLR.WGTControl: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Graph graph : Public
+    Int32 curx : Public
+    Int32 cury : Public
+    Boolean bZooming : Public
+    Boolean bDragToZoom : Public
+  Methods:
+    setDragToZoom(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    getDragToZoom(): PrivateScope, Public, HideBySig
+    getGraph(): PrivateScope, Public, HideBySig
+    setGraph(Graph): PrivateScope, Public, HideBySig
+    IsInputKey(Keys): PrivateScope, Public, Virtual, HideBySig
+Class PopulationGUI.TWindow: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class GUICLR.UnicodeChars: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String etaUnicode : Public, Static
+    System.String sigmaUnicode : Public, Static
+    System.String minusOne : Public, Static
+    System.String chisqr : Public, Static
+    System.String rsqr : Public, Static
+    System.String sqr : Public, Static
+    System.String alphaUnicode : Public, Static
+    System.String betaUnicode : Public, Static
+    System.String gammaUnicode : Public, Static

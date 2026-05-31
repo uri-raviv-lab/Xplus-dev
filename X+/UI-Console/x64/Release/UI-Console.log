@@ -1,0 +1,8 @@
+﻿C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets(1418,5): warning MSB8012: TargetPath(Z:\Homes\noam\NOAM-X-plus-real\r3\x64\Release\UI-Console.exe) does not match the Linker's OutputFile property value (Z:\Homes\noam\NOAM-X-plus-real\r3\x64\Release\xplus.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets(1420,5): warning MSB8012: TargetName(UI-Console) does not match the Linker's OutputFile property value (xplus). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  Generating code
+  0 of 367 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  UI-Console.vcxproj -> Z:\Homes\noam\NOAM-X-plus-real\r3\x64\Release\UI-Console.exe

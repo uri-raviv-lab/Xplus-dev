@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>Z:\Homes\noam\NOAM-X-plus-real\r3\Win32\Debug\PopulationSolver.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>Z:\Homes\noam\NOAM-X-plus-real\r3\Win32\Debug\PopulationGUI.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

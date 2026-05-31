@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Quadrature">
+      <UniqueIdentifier>{b6a7fb0f-c6d2-42ab-9be9-25ac0bdbe269}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components">
+      <UniqueIdentifier>{dc0d07dd-58de-4b1c-8cc9-a824ebfe0ebd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Fitting">
+      <UniqueIdentifier>{cea73100-ae6c-42a9-9802-e65b39bafeed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Externals">
+      <UniqueIdentifier>{c8167af6-e14b-4eb2-a607-53740f01786d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Models">
+      <UniqueIdentifier>{b9df26da-0194-474b-ab05-545825eb0ca8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Fitting">
+      <UniqueIdentifier>{8de2c142-e417-4ed9-8cce-df08e9e187ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Quadrature">
+      <UniqueIdentifier>{5ef64e68-c119-4aaf-b5e1-b83d9669b025}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components">
+      <UniqueIdentifier>{bff105a1-c393-4c22-a273-07c5864dd00b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Externals">
+      <UniqueIdentifier>{8c1aa8f6-f58d-4061-a76f-1b31b5c2c9f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Models">
+      <UniqueIdentifier>{16b3e640-589f-4dff-b441-3ec476432a67}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="globalsettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gauss.cpp">
+      <Filter>Source Files\Quadrature</Filter>
+    </ClCompile>
+    <ClCompile Include="MonteCarlo.cpp">
+      <Filter>Source Files\Quadrature</Filter>
+    </ClCompile>
+    <ClCompile Include="Quadrature.cpp">
+      <Filter>Source Files\Quadrature</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpsonRule.cpp">
+      <Filter>Source Files\Quadrature</Filter>
+    </ClCompile>
+    <ClCompile Include="background.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="BackwardsCompatibility.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="filemgt.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="gpgpu.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="inimgt.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="mathfuncs.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="smooth.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="bgfitting.cpp">
+      <Filter>Source Files\Fitting</Filter>
+    </ClCompile>
+    <ClCompile Include="DEFitting.cpp">
+      <Filter>Source Files\Fitting</Filter>
+    </ClCompile>
+    <ClCompile Include="fitting.cpp">
+      <Filter>Source Files\Fitting</Filter>
+    </ClCompile>
+    <ClCompile Include="gpgpumodels.cpp">
+      <Filter>Source Files\Fitting</Filter>
+    </ClCompile>
+    <ClCompile Include="MCFitting.cpp">
+      <Filter>Source Files\Fitting</Filter>
+    </ClCompile>
+    <ClCompile Include="modelfitting.cpp">
+      <Filter>Source Files\Fitting</Filter>
+    </ClCompile>
+    <ClCompile Include="models.cpp">
+      <Filter>Source Files\Fitting</Filter>
+    </ClCompile>
+    <ClCompile Include="structurefitting.cpp">
+      <Filter>Source Files\Fitting</Filter>
+    </ClCompile>
+    <ClCompile Include="alglib.cpp">
+      <Filter>Source Files\Externals</Filter>
+    </ClCompile>
+    <ClCompile Include="DESolver.cpp">
+      <Filter>Source Files\Externals</Filter>
+    </ClCompile>
+    <ClCompile Include="CylindricalModels.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultModels.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="EDProfile.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="GLpreview.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="HelicalModels.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="OtherModels.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="SlabModels.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="SphericalModels.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="TRAModel.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bgfitting.h">
+      <Filter>Header Files\Fitting</Filter>
+    </ClInclude>
+    <ClInclude Include="DEFitting.h">
+      <Filter>Header Files\Fitting</Filter>
+    </ClInclude>
+    <ClInclude Include="fitting.h">
+      <Filter>Header Files\Fitting</Filter>
+    </ClInclude>
+    <ClInclude Include="fittingfactory.h">
+      <Filter>Header Files\Fitting</Filter>
+    </ClInclude>
+    <ClInclude Include="gpgpumodels.h">
+      <Filter>Header Files\Fitting</Filter>
+    </ClInclude>
+    <ClInclude Include="MCFitting.h">
+      <Filter>Header Files\Fitting</Filter>
+    </ClInclude>
+    <ClInclude Include="modelfitting.h">
+      <Filter>Header Files\Fitting</Filter>
+    </ClInclude>
+    <ClInclude Include="models.h">
+      <Filter>Header Files\Fitting</Filter>
+    </ClInclude>
+    <ClInclude Include="structurefitting.h">
+      <Filter>Header Files\Fitting</Filter>
+    </ClInclude>
+    <ClInclude Include="Quadrature.h">
+      <Filter>Header Files\Quadrature</Filter>
+    </ClInclude>
+    <ClInclude Include="background.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="BackwardsCompatibility.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="filemgt.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="gpgpu.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="inimgt.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="mathfuncs.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="smooth.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="alglib.h">
+      <Filter>Header Files\Externals</Filter>
+    </ClInclude>
+    <ClInclude Include="DESolver.h">
+      <Filter>Header Files\Externals</Filter>
+    </ClInclude>
+    <ClInclude Include="CylindricalModels.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="EDProfile.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="GLPreview.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="HelicalModels.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelContainer.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="OtherModels.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="SlabModels.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="SphericalModels.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="TRAModel.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Calculation.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="globalsettings.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

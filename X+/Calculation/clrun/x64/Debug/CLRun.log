@@ -1,0 +1,7 @@
+﻿cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  genclgl.c
+  gencl.c
+  dynamiclib.c
+  clrun.c
+  Generating Code...
+  CLRun.vcxproj -> Z:\Homes\noam\NOAM-X-plus-real\r3\x64\Debug\CLRun.lib

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>Z:\Homes\noam\NOAM-X-plus-real\r3\x64\Release\Calculation.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>Z:\Homes\noam\NOAM-X-plus-real\r3\x64\Release\SampleModel.dll</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

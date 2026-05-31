@@ -1,0 +1,17 @@
+\\132.64.92.73\raviv_group\Homes\noam\NOAM-X-plus-real\r3\X+\GUI-CLR\Win32\Release\GUI-CLR.vcxproj.AssemblyReference.cache
+\\132.64.92.73\raviv_group\Homes\noam\NOAM-X-plus-real\r3\X+\GUI-CLR\Win32\Release\GUICLR.About.resources
+\\132.64.92.73\raviv_group\Homes\noam\NOAM-X-plus-real\r3\X+\GUI-CLR\Win32\Release\GUICLR.DataManip.resources
+\\132.64.92.73\raviv_group\Homes\noam\NOAM-X-plus-real\r3\X+\GUI-CLR\Win32\Release\GUICLR.ErrorTableWindow.resources
+\\132.64.92.73\raviv_group\Homes\noam\NOAM-X-plus-real\r3\X+\GUI-CLR\Win32\Release\GUICLR.ExportGraph.resources
+\\132.64.92.73\raviv_group\Homes\noam\NOAM-X-plus-real\r3\X+\GUI-CLR\Win32\Release\GUICLR.ExternalModelDialog.resources
+\\132.64.92.73\raviv_group\Homes\noam\NOAM-X-plus-real\r3\X+\GUI-CLR\Win32\Release\GUICLR.ExtractBackground.resources
+\\132.64.92.73\raviv_group\Homes\noam\NOAM-X-plus-real\r3\X+\GUI-CLR\Win32\Release\GUICLR.ExtractBaseline.resources
+\\132.64.92.73\raviv_group\Homes\noam\NOAM-X-plus-real\r3\X+\GUI-CLR\Win32\Release\GUICLR.FitRange.resources
+\\132.64.92.73\raviv_group\Homes\noam\NOAM-X-plus-real\r3\X+\GUI-CLR\Win32\Release\GUICLR.FormFactor.resources
+\\132.64.92.73\raviv_group\Homes\noam\NOAM-X-plus-real\r3\X+\GUI-CLR\Win32\Release\GUICLR.OpeningWindow.resources
+\\132.64.92.73\raviv_group\Homes\noam\NOAM-X-plus-real\r3\X+\GUI-CLR\Win32\Release\GUICLR.ResultsWindow.resources
+\\132.64.92.73\raviv_group\Homes\noam\NOAM-X-plus-real\r3\X+\GUI-CLR\Win32\Release\GUICLR.signalFile.resources
+\\132.64.92.73\raviv_group\Homes\noam\NOAM-X-plus-real\r3\X+\GUI-CLR\Win32\Release\GUICLR.SignalSeries.resources
+\\132.64.92.73\raviv_group\Homes\noam\NOAM-X-plus-real\r3\X+\GUI-CLR\Win32\Release\GUICLR.SmoothWindow.resources
+\\132.64.92.73\raviv_group\Homes\noam\NOAM-X-plus-real\r3\X+\GUI-CLR\Win32\Release\GUICLR.WGTControl.resources
+\\132.64.92.73\raviv_group\Homes\noam\NOAM-X-plus-real\r3\X+\GUI-CLR\Win32\Release\GUI-CLR.vcxproj.GenerateResource.cache
