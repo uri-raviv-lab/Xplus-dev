@@ -434,7 +434,7 @@ void BuildAMatrixForPhases(VectorXd  &a, MatrixXd &g, PhaseType phase) {
 				( (cos(a[5]) - cos(a[4]) * cos (a[2]) )/ tan (a[2]) - cos(a[4]) * sin (a[2]) )  ;
 			g(1,0) =   0;
 			g(1,1) =   2.0 * PI / (a[1] * sin (a[2]) );
-			g(2,1) = - 2.0 * PI / (a[1] * sin (a[2]) * sin (a[2]) * sqroot ) * (cos(a[5]) - cos(a[4]) *cos (a[2]));
+			g(1,2) = - 2.0 * PI / (a[1] * sin (a[2]) * sin (a[2]) * sqroot ) * (cos(a[5]) - cos(a[4]) *cos (a[2]));
 			g(2,0) =   0;
 			g(2,1) =   0;
 			g(2,2) =   2.0 * PI / (a[3] * sqroot );
@@ -456,7 +456,7 @@ void BuildAMatrixForPhases(VectorXd  &a, MatrixXd &g, PhaseType phase) {
 				( (cos(a[5]) - cos(a[4]) * cos (a[2]) )/ tan (a[2]) - cos(a[4]) * sin (a[2]) )  ;
 			g(1,0) =   0;
 			g(1,1) =   2.0 * PI / (a[1] * sin (a[2]) );
-			g(2,1) = - 2.0 * PI / (a[1] * sin (a[2]) * sin (a[2]) * sqroot ) * (cos(a[5]) - cos(a[4]) *cos (a[2]));
+			g(1,2) = - 2.0 * PI / (a[1] * sin (a[2]) * sin (a[2]) * sqroot ) * (cos(a[5]) - cos(a[4]) *cos (a[2]));
 			g(2,0) =   0;
 			g(2,1) =   0;
 			g(2,2) =   2.0 * PI / (a[3] * sqroot );
@@ -487,7 +487,7 @@ void BuildAMatrixForPhases(VectorXd  &a, MatrixXd &g, PhaseType phase) {
 				( (cos(a[5]) - cos(a[4]) * cos (a[2]) )/ tan (a[2]) - cos(a[4]) * sin (a[2]) )  ;
 			g(1,0) =   0;
 			g(1,1) =   2.0 * PI / (a[1] * sin (a[2]) );
-			g(2,1) = - 2.0 * PI / (a[1] * sin (a[2]) * sin (a[2]) * sqroot ) * (cos(a[5]) - cos(a[4]) *cos (a[2]));
+			g(1,2) = - 2.0 * PI / (a[1] * sin (a[2]) * sin (a[2]) * sqroot ) * (cos(a[5]) - cos(a[4]) *cos (a[2]));
 			g(2,0) =   0;
 			g(2,1) =   0;
 			g(2,2) =   2.0 * PI / (a[3] * sqroot );

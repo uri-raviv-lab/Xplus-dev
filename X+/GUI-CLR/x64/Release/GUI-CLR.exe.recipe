@@ -2,10 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>Z:\Homes\noam\NOAM-X-plus-real\r3\x64\Release\Calculation.dll</FullPath>
+      <FullPath>Z:\Homes\noam\r3\x64\Release\Calculation.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>Z:\Homes\noam\NOAM-X-plus-real\r3\x64\Release\GUI-CLR.exe</FullPath>
+      <FullPath>Z:\Homes\noam\r3\x64\Release\GUI-CLR.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

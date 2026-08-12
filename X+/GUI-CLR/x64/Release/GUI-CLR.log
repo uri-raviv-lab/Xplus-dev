@@ -1,3 +1,215 @@
-﻿C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets(1418,5): warning MSB8012: TargetPath(Z:\Homes\noam\NOAM-X-plus-real\r3\x64\Release\GUI-CLR.exe) does not match the Linker's OutputFile property value (Z:\Homes\noam\NOAM-X-plus-real\r3\x64\Release\X+.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+﻿  17 File(s) copied
+  Background.cpp
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244: 'argument': conversion from 'Eigen::EigenBase<Derived>::Index' to 'int', possible loss of data
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         with
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         [
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:             Derived=Eigen::Matrix<double,-1,1,0,-1,1>
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         ]
+  (compiling source file 'Background.cpp')
+  
+  DataManip.cpp
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244: 'argument': conversion from 'Eigen::EigenBase<Derived>::Index' to 'int', possible loss of data
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         with
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         [
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:             Derived=Eigen::Matrix<double,-1,1,0,-1,1>
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         ]
+  (compiling source file '../GUI-CLR/DataManip.cpp')
+  
+Z:\Homes\noam\r3\X+\GUI-CLR\DataManip.cpp(40,21): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+Z:\Homes\noam\r3\X+\GUI-CLR\DataManip.cpp(146,18): warning C4477: 'fprintf' : format string '%*f' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+      Z:\Homes\noam\r3\X+\GUI-CLR\DataManip.cpp(146,18):
+      this argument is used as a field width
+  
+Z:\Homes\noam\r3\X+\GUI-CLR\DataManip.cpp(146,18): warning C4477: 'fprintf' : format string '%*e' requires an argument of type 'int', but variadic argument 3 has type 'size_t'
+      Z:\Homes\noam\r3\X+\GUI-CLR\DataManip.cpp(146,18):
+      this argument is used as a field width
+  
+Z:\Homes\noam\r3\X+\GUI-CLR\DataManip.cpp(149,20): warning C4477: 'fprintf' : format string '%*e' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+      Z:\Homes\noam\r3\X+\GUI-CLR\DataManip.cpp(149,20):
+      this argument is used as a field width
+  
+  edprofile.cpp
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244: 'argument': conversion from 'Eigen::EigenBase<Derived>::Index' to 'int', possible loss of data
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         with
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         [
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:             Derived=Eigen::Matrix<double,-1,1,0,-1,1>
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         ]
+  (compiling source file '../GUI-CLR/edprofile.cpp')
+  
+Z:\Homes\noam\r3\X+\GUI-CLR\edprofile.cpp(28,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+Z:\Homes\noam\r3\X+\GUI-CLR\edprofile.cpp(61,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+Z:\Homes\noam\r3\X+\GUI-CLR\edprofile.cpp(61,31): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+Z:\Homes\noam\r3\X+\GUI-CLR\edprofile.cpp(75,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  ErrorTableWindow.cpp
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244: 'argument': conversion from 'Eigen::EigenBase<Derived>::Index' to 'int', possible loss of data
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         with
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         [
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:             Derived=Eigen::Matrix<double,-1,1,0,-1,1>
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         ]
+  (compiling source file '../GUI-CLR/ErrorTableWindow.cpp')
+  
+Z:\Homes\noam\r3\X+\GUI-CLR\ErrorTableWindow.cpp(165,20): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::wstring'
+  ExportGraph.cpp
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244: 'argument': conversion from 'Eigen::EigenBase<Derived>::Index' to 'int', possible loss of data
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         with
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         [
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:             Derived=Eigen::Matrix<double,-1,1,0,-1,1>
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         ]
+  (compiling source file '../GUI-CLR/ExportGraph.cpp')
+  
+  ExternalModelDialog.cpp
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244: 'argument': conversion from 'Eigen::EigenBase<Derived>::Index' to 'int', possible loss of data
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         with
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         [
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:             Derived=Eigen::Matrix<double,-1,1,0,-1,1>
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         ]
+  (compiling source file '../GUI-CLR/ExternalModelDialog.cpp')
+  
+  ExtractBackground.cpp
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244: 'argument': conversion from 'Eigen::EigenBase<Derived>::Index' to 'int', possible loss of data
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         with
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         [
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:             Derived=Eigen::Matrix<double,-1,1,0,-1,1>
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         ]
+  (compiling source file '../GUI-CLR/ExtractBackground.cpp')
+  
+  ExtractBaseline.cpp
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244: 'argument': conversion from 'Eigen::EigenBase<Derived>::Index' to 'int', possible loss of data
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         with
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         [
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:             Derived=Eigen::Matrix<double,-1,1,0,-1,1>
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         ]
+  (compiling source file '../GUI-CLR/ExtractBaseline.cpp')
+  
+Z:\Homes\noam\r3\X+\GUI-CLR\ExtractBaseline.cpp(121,30): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+Z:\Homes\noam\r3\X+\GUI-CLR\ExtractBaseline.cpp(142,20): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+Z:\Homes\noam\r3\X+\GUI-CLR\ExtractBaseline.cpp(390,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  FormFactor.cpp
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244: 'argument': conversion from 'Eigen::EigenBase<Derived>::Index' to 'int', possible loss of data
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         with
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         [
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:             Derived=Eigen::Matrix<double,-1,1,0,-1,1>
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         ]
+  (compiling source file '../GUI-CLR/FormFactor.cpp')
+  
+Z:\Homes\noam\r3\X+\GUI-CLR\FormFactor.cpp(807,12): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+Z:\Homes\noam\r3\X+\GUI-CLR\FormFactor.cpp(818,12): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+Z:\Homes\noam\r3\X+\GUI-CLR\FormFactor.cpp(829,12): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+Z:\Homes\noam\r3\X+\GUI-CLR\FormFactor.cpp(838,12): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+Z:\Homes\noam\r3\X+\GUI-CLR\FormFactor.cpp(1652,18): warning C4947: 'System::Threading::Thread::Resume': marked as obsolete
+      Z:\Homes\noam\r3\X+\GUI-CLR\FormFactor.cpp(1652,18):
+      Message: 'Thread.Resume has been deprecated.  Please use other classes in System.Threading, such as Monitor, Mutex, Event, and Semaphore, to synchronize Threads or protect resources.  http://go.microsoft.com/fwlink/?linkid=14202'
+  
+Z:\Homes\noam\r3\X+\GUI-CLR\FormFactor.cpp(1654,18): warning C4947: 'System::Threading::Thread::Suspend': marked as obsolete
+      Z:\Homes\noam\r3\X+\GUI-CLR\FormFactor.cpp(1654,18):
+      Message: 'Thread.Suspend has been deprecated.  Please use other classes in System.Threading, such as Monitor, Mutex, Event, and Semaphore, to synchronize Threads or protect resources.  http://go.microsoft.com/fwlink/?linkid=14202'
+  
+Z:\Homes\noam\r3\X+\GUI-CLR\FormFactor.cpp(3159,20): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::wstring'
+Z:\Homes\noam\r3\X+\GUI-CLR\FormFactor.cpp(3274,18): warning C4477: 'sprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'System::String ^'
+Z:\Homes\noam\r3\X+\GUI-CLR\FormFactor.cpp(3912,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+Z:\Homes\noam\r3\X+\GUI-CLR\FormFactor.cpp(3913,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+Z:\Homes\noam\r3\X+\GUI-CLR\FormFactor.cpp(3932,30): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  genbackground.cpp
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244: 'argument': conversion from 'Eigen::EigenBase<Derived>::Index' to 'int', possible loss of data
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         with
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         [
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:             Derived=Eigen::Matrix<double,-1,1,0,-1,1>
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         ]
+  (compiling source file '../GUI-CLR/genbackground.cpp')
+  
+Z:\Homes\noam\r3\X+\GUI-CLR\genbackground.cpp(31,20): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+Z:\Homes\noam\r3\X+\GUI-CLR\genbackground.cpp(20,2): warning C4996: 'wcsnset': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _wcsnset. See online help for details.
+  graphtoolkit.cpp
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244: 'argument': conversion from 'Eigen::EigenBase<Derived>::Index' to 'int', possible loss of data
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         with
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         [
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:             Derived=Eigen::Matrix<double,-1,1,0,-1,1>
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         ]
+  (compiling source file '../GUI-CLR/graphtoolkit.cpp')
+  
+Z:\Homes\noam\r3\X+\GUI-CLR\graphtoolkit.cpp(657,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+Z:\Homes\noam\r3\X+\GUI-CLR\graphtoolkit.cpp(1145,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  main.cpp
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244: 'argument': conversion from 'Eigen::EigenBase<Derived>::Index' to 'int', possible loss of data
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         with
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         [
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:             Derived=Eigen::Matrix<double,-1,1,0,-1,1>
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         ]
+  (compiling source file '../GUI-CLR/main.cpp')
+  
+  OpenGLControl.cpp
+  OpeningWindow.cpp
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244: 'argument': conversion from 'Eigen::EigenBase<Derived>::Index' to 'int', possible loss of data
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         with
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         [
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:             Derived=Eigen::Matrix<double,-1,1,0,-1,1>
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         ]
+  (compiling source file '../GUI-CLR/OpeningWindow.cpp')
+  
+Z:\Homes\noam\r3\X+\GUI-CLR\OpeningWindow.cpp(240,7): warning C4996: 'wcsnset': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _wcsnset. See online help for details.
+Z:\Homes\noam\r3\X+\GUI-CLR\OpeningWindow.cpp(547,15): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+Z:\Homes\noam\r3\X+\GUI-CLR\OpeningWindow.cpp(570,12): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+Z:\Homes\noam\r3\X+\GUI-CLR\OpeningWindow.cpp(599,20): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::wstring'
+  ResultsWindow.cpp
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244: 'argument': conversion from 'Eigen::EigenBase<Derived>::Index' to 'int', possible loss of data
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         with
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         [
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:             Derived=Eigen::Matrix<double,-1,1,0,-1,1>
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         ]
+  (compiling source file '../GUI-CLR/ResultsWindow.cpp')
+  
+  signalFile.cpp
+  SignalSeries.cpp
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244: 'argument': conversion from 'Eigen::EigenBase<Derived>::Index' to 'int', possible loss of data
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         with
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         [
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:             Derived=Eigen::Matrix<double,-1,1,0,-1,1>
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         ]
+  (compiling source file '../GUI-CLR/SignalSeries.cpp')
+  
+Z:\Homes\noam\r3\X+\GUI-CLR\SignalSeries.cpp(242,24): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+Z:\Homes\noam\r3\X+\GUI-CLR\SignalSeries.cpp(321,20): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::wstring'
+Z:\Homes\noam\r3\X+\GUI-CLR\SignalSeries.cpp(332,17): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'System::String ^'
+Z:\Homes\noam\r3\X+\GUI-CLR\SignalSeries.cpp(332,17): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 2 has type 'System::String ^'
+Z:\Homes\noam\r3\X+\GUI-CLR\SignalSeries.cpp(352,17): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'System::String ^'
+Z:\Homes\noam\r3\X+\GUI-CLR\SignalSeries.cpp(352,17): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 2 has type 'System::String ^'
+  SmoothWindow.cpp
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244: 'argument': conversion from 'Eigen::EigenBase<Derived>::Index' to 'int', possible loss of data
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         with
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         [
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:             Derived=Eigen::Matrix<double,-1,1,0,-1,1>
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         ]
+  (compiling source file '../GUI-CLR/SmoothWindow.cpp')
+  
+Z:\Homes\noam\r3\X+\GUI-CLR\SmoothWindow.cpp(19,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+Z:\Homes\noam\r3\X+\GUI-CLR\SmoothWindow.cpp(88,10): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+Z:\Homes\noam\r3\X+\GUI-CLR\SmoothWindow.cpp(154,17): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  StructureFactor.cpp
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244: 'argument': conversion from 'Eigen::EigenBase<Derived>::Index' to 'int', possible loss of data
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         with
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         [
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:             Derived=Eigen::Matrix<double,-1,1,0,-1,1>
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         ]
+  (compiling source file '../GUI-CLR/StructureFactor.cpp')
+  
+Z:\Homes\noam\r3\X+\GUI-CLR\StructureFactor.cpp(500,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+Z:\Homes\noam\r3\X+\GUI-CLR\StructureFactor.cpp(538,12): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+Z:\Homes\noam\r3\X+\GUI-CLR\StructureFactor.cpp(901,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+Z:\Homes\noam\r3\X+\GUI-CLR\StructureFactor.cpp(1436,12): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  UIsettings.cpp
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244: 'argument': conversion from 'Eigen::EigenBase<Derived>::Index' to 'int', possible loss of data
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         with
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         [
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:             Derived=Eigen::Matrix<double,-1,1,0,-1,1>
+Z:\Homes\noam\r3\X+\Calculation\Model.h(387,39): warning C4244:         ]
+  (compiling source file '../GUI-CLR/UIsettings.cpp')
+  
+  Generating Code...
+  Compiling...
+  UnicodeChars.cpp
+  Generating Code...
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets(1418,5): warning MSB8012: TargetPath(Z:\Homes\noam\r3\x64\Release\GUI-CLR.exe) does not match the Linker's OutputFile property value (Z:\Homes\noam\r3\x64\Release\X+.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
 C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets(1420,5): warning MSB8012: TargetName(GUI-CLR) does not match the Linker's OutputFile property value (X+). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
-  GUI-CLR.vcxproj -> Z:\Homes\noam\NOAM-X-plus-real\r3\x64\Release\GUI-CLR.exe
+  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+  GUI-CLR.vcxproj -> Z:\Homes\noam\r3\x64\Release\GUI-CLR.exe

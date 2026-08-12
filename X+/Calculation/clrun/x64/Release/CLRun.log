@@ -1,1 +1,5 @@
-﻿  CLRun.vcxproj -> Z:\Homes\noam\NOAM-X-plus-real\r3\x64\Release\CLRun.lib
+﻿  clrun.c
+  dynamiclib.c
+  gencl.c
+  genclgl.c
+  CLRun.vcxproj -> Z:\Homes\noam\r3\x64\Release\CLRun.lib

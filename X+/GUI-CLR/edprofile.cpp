@@ -14,6 +14,7 @@ void MakeSymmetricProfile(graphLine *graphs, int ind) {
 
 	// Finding the first positive spot and erasing all negative values from the
 	// graph
+	//hi
 	for(unsigned int j = 0; j < graphs[ind].x.size() - 1; j++) {
 		if(graphs[ind].x.at(j + 1) >= 0.0 && graphs[ind].x.at(j) < 0.0) {
 			graphs[ind].x.erase(graphs[ind].x.begin(), graphs[ind].x.begin() + j);

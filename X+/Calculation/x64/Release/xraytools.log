@@ -1,3 +1,40 @@
-﻿C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets(1418,5): warning MSB8012: TargetPath(Z:\Homes\noam\NOAM-X-plus-real\r3\x64\Release\Calculation.dll) does not match the Linker's OutputFile property value (Z:\Homes\noam\NOAM-X-plus-real\r3\x64\Release\xplusbackend.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+﻿  alglib.cpp
+  background.cpp
+  BackwardsCompatibility.cpp
+  bgfitting.cpp
+  CylindricalModels.cpp
+  DefaultModels.cpp
+  DEFitting.cpp
+  DESolver.cpp
+  EDProfile.cpp
+  filemgt.cpp
+  fitting.cpp
+  Gauss.cpp
+  globalsettings.cpp
+  GLpreview.cpp
+  gpgpu.cpp
+  gpgpumodels.cpp
+  HelicalModels.cpp
+  inimgt.cpp
+  mathfuncs.cpp
+  MCFitting.cpp
+  Compiling...
+  Model.cpp
+  modelfitting.cpp
+  models.cpp
+  MonteCarlo.cpp
+  OtherModels.cpp
+  Quadrature.cpp
+  SimpsonRule.cpp
+  SlabModels.cpp
+  smooth.cpp
+  SphericalModels.cpp
+  structurefitting.cpp
+  TRAModel.cpp
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets(1418,5): warning MSB8012: TargetPath(Z:\Homes\noam\r3\x64\Release\Calculation.dll) does not match the Linker's OutputFile property value (Z:\Homes\noam\r3\x64\Release\xplusbackend.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
 C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets(1420,5): warning MSB8012: TargetName(Calculation) does not match the Linker's OutputFile property value (xplusbackend). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
-  xraytools.vcxproj -> Z:\Homes\noam\NOAM-X-plus-real\r3\x64\Release\Calculation.dll
+  alglib.obj : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+     Creating library Z:\Homes\noam\r3\x64\Release\xplusbackend.lib and object Z:\Homes\noam\r3\x64\Release\xplusbackend.exp
+  Generating code
+  Finished generating code
+  xraytools.vcxproj -> Z:\Homes\noam\r3\x64\Release\Calculation.dll

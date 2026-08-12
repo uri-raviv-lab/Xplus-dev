@@ -1,1 +1,14 @@
-﻿  SampleModel.vcxproj -> Z:\Homes\noam\NOAM-X-plus-real\r3\x64\Release\SampleModel.dll
+﻿  SampleModel.cpp
+Z:\Homes\noam\NOAM-X-plus-real\r3\X+\Calculation\Model.h(387,39): warning C4244: 'argument': conversion from 'Eigen::EigenBase<Derived>::Index' to 'int', possible loss of data
+Z:\Homes\noam\NOAM-X-plus-real\r3\X+\Calculation\Model.h(387,39): warning C4244:         with
+Z:\Homes\noam\NOAM-X-plus-real\r3\X+\Calculation\Model.h(387,39): warning C4244:         [
+Z:\Homes\noam\NOAM-X-plus-real\r3\X+\Calculation\Model.h(387,39): warning C4244:             Derived=Eigen::Matrix<double,-1,1,0,-1,1>
+Z:\Homes\noam\NOAM-X-plus-real\r3\X+\Calculation\Model.h(387,39): warning C4244:         ]
+  (compiling source file 'SampleModel.cpp')
+  
+     Creating library Z:\Homes\noam\r3\x64\Release\SampleModel.lib and object Z:\Homes\noam\r3\x64\Release\SampleModel.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 90 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  SampleModel.vcxproj -> Z:\Homes\noam\r3\x64\Release\SampleModel.dll
